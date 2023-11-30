@@ -132,6 +132,8 @@ ol {
 
 .content__card-link:hover {
   text-decoration: underline 1px;
+  text-underline-offset: 2px;
+  text-decoration-skip-ink: none;
 }
 .content__card-link:active {
   background-color:#545050;
