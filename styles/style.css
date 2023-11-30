@@ -148,6 +148,10 @@ ol {
   border: 1px solid #fff;
 }
 
+.content__card-link_current:first-child {
+  background-color:#545050;
+  padding: 2px;
+}
 
 .result__video-container {
   position: relative;
