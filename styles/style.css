@@ -135,7 +135,7 @@ ol {
   text-underline-offset: 2px;
   text-decoration-skip-ink: none;
 }
-.content__card-link:active {
+.content__list-item:active {
   background-color:#545050;
 }
 
@@ -147,6 +147,7 @@ ol {
 .content__card-link:focus-visible {
   border: 1px solid #fff;
 }
+
 
 .result__video-container {
   position: relative;
