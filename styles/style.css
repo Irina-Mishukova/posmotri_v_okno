@@ -113,20 +113,29 @@ ol {
   max-width: 398px;
 }
 
-/* .content__card-link {
-  max-width: 398px;
-} */
+.content__card-link {
+  /* margin: 2px;
+  /* max-width: 394px; */
+  /* max-height: 103px; */
+}
 
+.content__video-card {
+  max-height: 103px;
+  max-width: 394px;
+  margin: 2px;
+
+}
 
 
 
 .content__video-card-thumbnail {
-  max-width: 194px;
+  min-width: 194px;
   max-height: 103px;
 }
 
 .content__video-card-description-container {
    flex: 1;
+   max-width: 200px;
 }
 
 
