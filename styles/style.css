@@ -82,7 +82,7 @@ ol {
 
 .content__details {
   display: flex;
-  max-width: 399px;
+  min-width: 399px;
   flex-direction: column;
   width: 100%;
   gap: 26px;
