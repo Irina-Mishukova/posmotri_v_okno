@@ -310,7 +310,10 @@ input[type='checkbox'] + span:active::after {
   transform: translate(-50%, -50%);
 }
 
-
+.search-form__label:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
 
 
 
