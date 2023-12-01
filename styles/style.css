@@ -182,7 +182,7 @@ ol {
 .search-form {
   display: flex;
   justify-content: space-between;
-  align-items: start;
+  align-items: flex-start;
   width: auto;
   margin-top: 16px;
 }
@@ -204,7 +204,8 @@ ol {
   border-bottom: 1px solid #FFF;
   cursor: pointer;
   min-width: 225px;
-  margin-top: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   color: rgba(255, 255, 255, 0.70);
   font-family: Fira Sans Condensed;
   font-size: 18px;
@@ -337,6 +338,7 @@ input[type='checkbox'] + span:active::after {
 
 .search-form__submit-button {
   min-width: 194px;
+  margin-top: 20px;
 }
 
 .more-button {
