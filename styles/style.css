@@ -230,25 +230,6 @@ ol {
   outline-offset: 1px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .content__card-link {
   color: #FFF;
   font-family: Oswald;
@@ -259,12 +240,6 @@ ol {
   text-transform: uppercase;
   text-decoration: none;
 }
-
-/* .content__video-card-title {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-} */
 
 .content__video-card-title {
   white-space: nowrap;
@@ -297,15 +272,6 @@ ol {
 .content__accent {
   color: #545050;
 }
-
-
-
-
-
-
-
-
-
 
 input[type='checkbox'] + span {
   width: 19px;
