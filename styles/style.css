@@ -277,8 +277,23 @@ input[type='checkbox'] + span:active::after {
   background-color: #FFF;
 }
 
+input[type='checkbox']:checked + span::after {
+  content: '';
+  display: block;
+  width: 15px;
+  height: 15px;
+  background-color: #FFF;
+}
+
+.search-form__checkbox-list{
+/* display: block;
+align-self: ; */
+  
+}
+
 .search-form__label:hover{
   text-decoration: underline;
+  text-underline-offset: 3px;
   cursor: pointer;
 }
 
