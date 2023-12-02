@@ -286,9 +286,14 @@ input[type='checkbox']:checked + span::after {
 }
 
 .search-form__checkbox-list{
-/* display: block;
-align-self: ; */
-  
+ display: flex;
+ gap: 5px;
+ align-items: flex-start;
+}
+.search-form__label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .search-form__label:hover{
