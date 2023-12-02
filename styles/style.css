@@ -185,7 +185,7 @@ ol {
   margin-top: 5px;
   margin-bottom: 5px;
   color: rgba(255, 255, 255, 0.70);
-  font-family: Fira Sans Condensed;
+  font-family: Fira Sans Condensed, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -228,7 +228,7 @@ ol {
 
 .content__video-card-description {
   color: #FFF;
-  font-family: Fira Sans Condensed;
+  font-family: Fira Sans Condensed, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -237,7 +237,7 @@ ol {
 
 .title {
   color: #FFF;
-  font-family: Oswald;
+  font-family: Oswald, sans-serif;
   font-size: 75px;
   font-style: normal;
   font-weight: 700;
@@ -290,6 +290,7 @@ input[type='checkbox']:checked + span::after {
  gap: 5px;
  align-items: flex-start;
 }
+
 .search-form__label {
   display: flex;
   align-items: center;
@@ -306,7 +307,7 @@ input[type='checkbox']:checked + span::after {
   appearance: none;
   color: #FFF;
   text-align: center;
-  font-family: Fira Sans Condensed;
+  font-family: Fira Sans Condensed, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -335,7 +336,7 @@ input[type='checkbox']:checked + span::after {
 .button:hover {
   color: #FFF;
   text-align: center;
-  font-family: Fira Sans Condensed;
+  font-family: Fira Sans Condensed, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
