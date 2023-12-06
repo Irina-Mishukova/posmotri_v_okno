@@ -258,7 +258,7 @@ input[type='checkbox'] + span {
 }
 
 .search-form__pseudo-checkbox {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
@@ -334,13 +334,6 @@ input[type='checkbox']:checked + span::after {
 }
 
 .button:hover {
-  color: #FFF;
-  text-align: center;
-  font-family: Fira Sans Condensed, sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
   text-decoration-line: underline;
 }
 
