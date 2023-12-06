@@ -264,11 +264,6 @@ input[type='checkbox'] + span {
   cursor: pointer;
 }
 
-input[type='checkbox'] + span:active {
-  width: 19px;
-  height: 19px;
-}
-
 input[type='checkbox'] + span:active::after {
   content: '';
   display: block;
