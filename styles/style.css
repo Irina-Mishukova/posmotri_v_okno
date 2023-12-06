@@ -109,6 +109,13 @@ ol {
   margin: 2px;
   max-width: 394px;
   cursor: pointer;
+  color: #FFF;
+  font-family: Oswald, sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none; 
 }
 
 .content__video-card-thumbnail {
@@ -209,17 +216,14 @@ ol {
   outline-offset: 1px;
 }
 
-.content__card-link {
+.content__video-card-title {
   color: #FFF;
   font-family: Oswald, sans-serif;
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
+  line-height: 100%;
   text-transform: uppercase;
-  text-decoration: none;
-}
-
-.content__video-card-title {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -249,7 +253,7 @@ ol {
   color: #545050;
 }
 
-input[type='checkbox'] + span {
+.search-form__checkbox + span {
   width: 19px;
   height: 19px;
   border: 1px solid #FFF;
