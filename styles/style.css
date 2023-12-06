@@ -167,7 +167,7 @@ ol {
 
 .search-form__fieldset-title {
   color: #FFF;
-  font-family: inherit, sans-serif;
+  font-family: Fira Sans Condensed, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -185,7 +185,7 @@ ol {
   margin-top: 5px;
   margin-bottom: 5px;
   color: rgba(255, 255, 255, 0.70);
-  font-family: inherit, sans-serif;
+  font-family: Fira Sans Condensed, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -228,7 +228,7 @@ ol {
 
 .content__video-card-description {
   color: #FFF;
-  font-family: inherit, sans-serif;
+  font-family: Fira Sans Condensed, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -258,10 +258,15 @@ input[type='checkbox'] + span {
 }
 
 .search-form__pseudo-checkbox {
-  display: flex;
+  display:flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
+}
+
+input[type='checkbox'] + span:active {
+  width: 19px;
+  height: 19px;
 }
 
 input[type='checkbox'] + span:active::after {
@@ -302,7 +307,7 @@ input[type='checkbox']:checked + span::after {
   appearance: none;
   color: #FFF;
   text-align: center;
-  font-family: inherit, sans-serif;
+  font-family: Fira Sans Condensed, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -331,7 +336,7 @@ input[type='checkbox']:checked + span::after {
 .button:hover {
   color: #FFF;
   text-align: center;
-  font-family: inherit, sans-serif;
+  font-family: Fira Sans Condensed, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
