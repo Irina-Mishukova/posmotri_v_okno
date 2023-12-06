@@ -292,7 +292,7 @@ input[type='checkbox']:checked + span::after {
   justify-content: space-between;
 }
 
-.search-form__label:hover{
+.search-form__label:hover .search-form__label-text{
   text-decoration: underline;
   text-underline-offset: 3px;
   cursor: pointer;
