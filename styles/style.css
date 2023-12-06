@@ -200,11 +200,9 @@ ol {
 }
 
 .search-form__textfield:active {
-  appearance: none;
-  border: none;
   border-radius: 0px;
-  border: 1px solid #FFF;
-  background-color: transparent;
+  border-left: 1px solid #FFF;
+  border-right: 1px solid #fff;
 }
 
 .search-form__textfield:focus {
