@@ -190,8 +190,6 @@ ol {
   border-bottom: 1px solid #FFF;
   cursor: pointer;
   min-width: 225px;
-  /* margin-top: 5px;
-  margin-bottom: 5px; */
   color: rgba(255, 255, 255, 0.70);
   font-family: Fira Sans Condensed, sans-serif;
   font-size: 18px;
@@ -233,7 +231,7 @@ ol {
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 90%;
+  line-height: 125%;
 }
 
 .title {
@@ -292,7 +290,6 @@ input[type='checkbox']:checked + span::after {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
 }
 
 .search-form__label:hover .search-form__label-text{
