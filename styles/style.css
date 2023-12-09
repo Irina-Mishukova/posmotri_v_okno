@@ -90,7 +90,7 @@ ol {
 .content__list {
   display: flex;
   flex-direction: column;
-  max-height: 298px;
+  height: 298px;
   overflow: auto;
 }
 
@@ -206,18 +206,10 @@ ol {
 .search-form__label:has(:focus-visible) {
   outline: 1px solid #fff;
   outline-offset: 1px;
-}
-
-/* .search-form__checkbox-list:focus-visible .search-form__label {
-  outline: 1px solid #fff;
-  outline-offset: 1px;
-} */
+} 
 
 .search-form__textfield:active {
-  outline: none;
-  border-radius: 0px;
-  border-left: 1px solid #FFF;
-  border-right: 1px solid #fff;
+  border: none;
 }
 
 .content__video-card-title {
