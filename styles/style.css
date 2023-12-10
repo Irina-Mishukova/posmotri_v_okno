@@ -114,7 +114,6 @@ ol {
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
-  text-transform: uppercase;
   text-decoration: none; 
 }
 
@@ -188,7 +187,7 @@ ol {
   border: none;
   border-top: 1px solid #FFF;
   border-bottom: 1px solid #FFF;
-  cursor: pointer;
+  cursor: auto;
   min-width: 225px;
   color: rgba(255, 255, 255, 0.70);
   font-family: Fira Sans Condensed, sans-serif;
